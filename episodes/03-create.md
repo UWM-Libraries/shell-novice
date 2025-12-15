@@ -510,6 +510,31 @@ $ cp thesis thesis_backup
 cp: -r not specified; omitting directory 'thesis'
 ```
 
+:::::::::::::::::::::::::::::::::::::::  callout
+
+### Destination Can Be New Name or Directory
+
+When we use two arguments with `mv` or `cp`,
+the second argument can be the locationa and new name
+we want our file to have. Alternatively,
+if we provide the path to an existing directory as the second argument,
+`mv`/`cp` will interpret that to mean that we want the file copied/moved
+to that directory without changing its name.
+
+For example:
+
+```bash
+$ cp quotes.txt thesis
+```
+
+accomplishes the same thing as
+
+```bash
+$ cp quotes.txt thesis/quotes.txt
+```
+
+:::::::::::::::::::::::::::::::::::::::  
+
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
