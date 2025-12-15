@@ -489,7 +489,7 @@ quotes.txt   thesis/quotations.txt
 ```
 
 Just like the recursive (`-R`) option for `ls`,
-the `-r` option for `cp`
+the `-r` or `--recursive` option for `cp`
 applies the command not just to the specifed directory,
 but to all its contents.
 
