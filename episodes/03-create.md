@@ -89,11 +89,22 @@ in a single operation:
 $ mkdir -p ../project/data ../project/results
 ```
 
+Let's use `ls -F` to list the new directories we just created in the
+`project` directory:
+
+```bash
+$ ls -F ../project
+```
+
+```output
+data/  results/
+```
+
 :::::::::::::::::::::::::::::::::::::::::  instructor
 
-Discussion of `ls -R` has been removed in favor of
-introducing it in `cp` context, and explaining more deeply
-in `grep`/`find` context.
+One could use `ls -R` to list a directory hierarchy, but rather
+than introducing it in `cp` context, `find` can be used instead
+and is explained more deeply in the `find` episode.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::
 
